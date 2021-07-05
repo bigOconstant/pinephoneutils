@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+NoDisplay=false
+Exec=/usr/bin/systemctl start sshd; notify-send $(ip address | grep wlan0  | awk '{print $2}')
+Name=start ssh
+Comment=start ssh
