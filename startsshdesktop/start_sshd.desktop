@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Start SSH
+Icon=/home/manjaro/.local/share/applications/ssh.png
+Exec=kgx -e /home/manjaro/.local/share/applications/start_sshd.sh

@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Stop SSH
+Icon=/home/manjaro/.local/share/applications/ssh.png
+Exec=kgx -e /home/manjaro/.local/share/applications/stop_sshd.sh
